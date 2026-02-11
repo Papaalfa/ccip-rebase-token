@@ -36,7 +36,7 @@ contract RebaseToken is ERC20, Ownable, AccessControl {
                               CONSTRUCTOR
     //////////////////////////////////////////////////////////////*/
 
-    constructor() Ownable(msg.sender) ERC20("RebaseToken", "RBT") {}
+    constructor() Ownable() ERC20("RebaseToken", "RBT") {}
 
     /*//////////////////////////////////////////////////////////////
                                FUNCTIONS
